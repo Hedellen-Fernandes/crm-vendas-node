@@ -1,24 +1,23 @@
 {
-	"name": "node-base",
+	"name": "crm-vendas-node",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"dev": "npx nodemon --exec ts-node -r tsconfig-paths/register --files src/index.ts",
-		"typeorm": "./node_modules/.bin/ts-node ./node_modules/typeorm/cli.js",
 		"test": "jest"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Hedellen-Fernandes/node-base.git"
+		"url": "git+https://github.com/Hedellen-Fernandes/crm-vendas-node.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/Hedellen-Fernandes/node-base/issues"
+		"url": "https://github.com/Hedellen-Fernandes/crm-vendas-node/issues"
 	},
-	"homepage": "https://github.com/Hedellen-Fernandes/node-base#readme",
+	"homepage": "https://github.com/Hedellen-Fernandes/crm-vendas-node#readme",
 	"dependencies": {
 		"@types/mongoose-auto-increment": "^5.0.33",
 		"express": "^4.17.1",
